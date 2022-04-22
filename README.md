@@ -1,2 +1,2 @@
 # C_practice
-C
+Learning C practice
