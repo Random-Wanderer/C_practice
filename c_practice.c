@@ -57,7 +57,7 @@ int main()
 */
 
 //IF, else if, else
-
+/*
 int main()
 {
   int time = 22;
@@ -75,3 +75,104 @@ int main()
   }
   return 0;
 }
+*/
+
+// Ternary
+/*
+int main(){
+  int x = 23;
+  (x < 20) ? printf("Less than") : printf("Greater than");
+  return 0;
+}
+*/
+
+// Switch
+/*
+int main() {
+  int day = 1;
+  switch (day) {
+    case 1:
+      printf("Monday");
+      break;
+    case 2:
+      printf("Tuesday");
+      break;
+    case 3:
+      printf("Friday");
+      break;
+    default:
+      printf("Weekend");
+  }
+  return 0;
+}
+*/
+
+// While
+/*
+int main() {
+  int i = 0;
+
+  while (i < 3) {
+    printf("%d\n", i);
+    i++;
+  }
+  return 0;
+}
+*/
+
+// Do/while
+/*
+int main() {
+  int i = 0;
+
+  do {
+    printf("%d\n", i);
+    i++;
+  }
+  while (i < 3);
+
+  return 0;
+}
+*/
+
+// For loop
+/*
+int main() {
+  int i;
+
+  for (i = 0; i <= 10; i = i + 2) {
+    printf("%d\n", i);
+  }
+  return 0;
+}
+*/
+
+// Break/continue
+/*
+int main() {
+  int i = 0;
+
+  while (i < 3) {
+    if (i == 2) {
+      break;
+    }
+    printf("%d\n", i);
+    i++;
+  }
+  return 0;
+}
+*/
+/*
+int main(){
+  int i = 0;
+
+  while (i < 5) {
+    i++;
+    if (i == 4) {
+      continue;
+    }
+    printf("%d\n", i);
+  }
+  return 0;
+}
+*/
