@@ -32,6 +32,15 @@ int main() {
   return 0;
 }*/
 
+// Array
+/*
+int main() {
+  int num[3] = {1, 2, 3};
+  printf("%d", num[0]);
+  return 0;
+}
+*/
+
 // Math
 /*
 int main() {
